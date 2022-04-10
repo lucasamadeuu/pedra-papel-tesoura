@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Pedra Papel ou Tesoura</title>
+</head>
+<body>
+
+    <h1 class="fonte titulo">Pedra Papel ou Tesoura</h1>
+    <h4 class="fonte subtitulo">Faça sua escolha!</h4>
+
+    <section class="images">
+        <img onclick="escolhaRock()" id="rock" class="image-square" src="./images/rock.png" alt="">
+        <img onclick="escolhaScissor()" class="image-square" src="./images/scissors.png" alt="">
+        <img onclick="escolhaPaper()" class="image-square" src="./images/paper.png" alt="">
+    </section>
+
+    <p class="fonte resultado" id="bot"></p>
+    <p class="fonte resultado" id="resultado"></p>
+
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
