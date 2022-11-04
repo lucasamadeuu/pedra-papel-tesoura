@@ -23,8 +23,6 @@ function escolhaRock(){
         resultado.innerHTML = "Você perdeu!";
         resultado.style.color = "red";
     }
-
-    console.log(sorteio)
 }
 
 function escolhaScissor(){
@@ -49,8 +47,6 @@ function escolhaScissor(){
         resultado.innerHTML = "Você perdeu!";
         resultado.style.color = "red";
     }
-
-    console.log(sorteio)
 }
 
 function escolhaPaper(){
@@ -75,6 +71,4 @@ function escolhaPaper(){
         resultado.innerHTML = "Você perdeu!";
         resultado.style.color = "red";
     }
-
-    console.log(sorteio)
 }
